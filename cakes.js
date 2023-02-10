@@ -1,7 +1,6 @@
 function cakes(recipe, available) {
     let count,current;
     for(ingredient in recipe){
-        // console.log(available[ingredient] != undefined);
         if (available[ingredient] != undefined) {
             current = Math.trunc(available[ingredient] / recipe[ingredient]);
             if ((current < count) || (count == undefined)) count = current;
