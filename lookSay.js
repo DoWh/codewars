@@ -8,7 +8,7 @@ function lookSay(number){
             count = 1;
         } else count++;
     }
-    return result;
+    return Number(result);
 }
 
 console.log(lookSay(2014));
