@@ -1,4 +1,4 @@
-//https://www.codewars.com/kata/5526fc09a1bbd946250002dc
+//https://www.codewars.com/kata/57f8ff867a28db569e000c4a
 function kebabize(str) {
     console.log(str)
     return str
